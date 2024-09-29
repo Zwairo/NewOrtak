@@ -11,6 +11,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class FeedActivity extends AppCompatActivity {
 
     private boolean a = true;
+    private boolean c = true ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +25,11 @@ public class FeedActivity extends AppCompatActivity {
         });
 
         selam();
+        aselam();
+    }
+
+    private void aselam() {
+        c=false;
     }
 
     private void selam() {
