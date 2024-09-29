@@ -11,7 +11,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class FeedActivity extends AppCompatActivity {
 
     private boolean a = true;
-    private boolean b = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,5 +29,4 @@ public class FeedActivity extends AppCompatActivity {
     private void selam() {
         a=false;
     }
-    private void deneme(){ b=true; }
 }
