@@ -11,6 +11,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class FeedActivity extends AppCompatActivity {
 
     private boolean a = true;
+    public  boolean osuruk = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
